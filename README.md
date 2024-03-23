@@ -1,4 +1,2 @@
-# bhm-module-template
-A template repository for Blish-HUD modules.
-
-See the [wiki](https://github.com/agaertner/bhm-module-template/wiki) for more information.
+# bhm-window-resize
+A module for Blish-HUD which resizes the GW2 window to a prefered size when the user is switching to windowed mode.

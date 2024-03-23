@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC40358A-9FC9-471C-90CD-1CE642E2CC7D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Nekres.TemplateModule</RootNamespace>
-    <AssemblyName>TemplateModule</AssemblyName>
+    <RootNamespace>Nekres.WindowResize</RootNamespace>
+    <AssemblyName>WindowResize</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <ProjectGuid>{15A6B4E7-9D5C-44FA-A741-A3401C9B0CDB}</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -195,6 +195,7 @@
     <Reference Include="System.Runtime.Extensions" />
     <Reference Include="System.Runtime.InteropServices" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Security.Cryptography.Algorithms" />
     <Reference Include="System.Security.Cryptography.Encoding" />
@@ -232,7 +233,9 @@
     <Reference Include="System.Xml.ReaderWriter" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TemplateModule.cs" />
+    <Compile Include="Core\Services\WindowService.cs" />
+    <Compile Include="Core\Utils\WindowUtil.cs" />
+    <Compile Include="WindowResize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TemplateModule")]
-[assembly: AssemblyDescription("A template module for Blish-HUD.")]
+[assembly: AssemblyTitle("WindowResize")]
+[assembly: AssemblyDescription("A module for Blish-HUD which resizes the GW2 window to a prefered size when the user is switching to windowed mode.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TemplateModule")]
-[assembly: AssemblyCopyright("Copyright © A. Gärtner 2022")]
+[assembly: AssemblyProduct("WindowResize")]
+[assembly: AssemblyCopyright("Copyright © A. Gärtner 2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -18,3 +18,6 @@ using System.Runtime.InteropServices;
 // to COM components.  If you need to access a type in this assembly from
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
+[assembly: AssemblyVersion("0.2.1.2")]
+[assembly: AssemblyFileVersion("0.2.1.2")]
+[assembly: AssemblyInformationalVersion("0.2.1-dev.2+Branch.dev.Sha.ad3c993521f731ff95ca381a94e669f0f9f79f73")]
