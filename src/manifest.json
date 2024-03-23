@@ -1,6 +1,6 @@
 {
   "name": "GW2 Window Resizer",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "namespace": "Nekres.WindowResize",
   "package": "WindowResize.dll",
   "manifest_version": 1,
