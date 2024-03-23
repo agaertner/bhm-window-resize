@@ -4,7 +4,7 @@
   "namespace": "Nekres.WindowResize",
   "package": "WindowResize.dll",
   "manifest_version": 1,
-  "description": "Resizes the GW2 window to a prefered size when you are switching to windowed mode.",
+  "description": "Resizes the GW2 window to a preferred size when you are switching to windowed mode.",
   "dependencies": {
     "bh.blishhud": ">=1.0.0"
   },
