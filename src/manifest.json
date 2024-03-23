@@ -1,19 +1,19 @@
 {
-  "name": "TemplateModule",
-  "version": "0.0.1",
-  "namespace": "Nekres.TemplateModule",
-  "package": "TemplateModule.dll",
-  "manifest_version": 1,
-  "description": "A template module for Blish-HUD.",
-  "dependencies": {
-    "bh.blishhud": ">=1.0.0"
-  },
-  "enabled_without_gw2": false,
-  "url": "https://github.com/agaertner/bhm-module-template",
-  "contributors": [
-    {
-      "name": "Nekres",
-      "username": "Nekres.1943"
-    }
-  ]
+    "name": "GW2 Window Resizer",
+    "version": "0.0.1",
+    "namespace": "Nekres.WindowResize",
+    "package": "WindowResize.dll",
+    "manifest_version": 1,
+    "description": "Resizes the GW2 window to a prefered size when you are switching to windowed mode.",
+    "dependencies": {
+        "bh.blishhud": ">=1.0.0"
+    },
+    "enabled_without_gw2": false,
+    "url": "https://github.com/agaertner/bhm-window-resize",
+    "contributors": [
+        {
+            "name": "Nekres",
+            "username": "Nekres.1943"
+        }
+    ]
 }
